@@ -1,0 +1,57 @@
+@charset  "utf-8"
+
+body  {
+  width: 400px;
+}
+.mainbox  {
+  width: 400px;
+  height: 450px;
+  margin: auto;
+}
+.header {
+  height: 100px;
+  background: #ff0000;
+}
+.side  {
+  width: 150px;
+  height: 250px;
+  background: #00ff51;
+  float: left;
+}
+.sab  {
+  float: right;
+  width: 250px;
+  height: 250px;
+}
+.sab-top-left {
+  width: 150px;
+  float: left;
+}
+.sab-top-left-top  {
+  height: 50px;
+  background: #cc00db;
+}
+.sab-top-left-bottom  {
+  height: 100px;
+  background: #0093b7;
+}
+.sab-top-right  {
+  width: 100px;
+  height: 150px;
+  background: #ff9e6b;
+  float: right;
+}
+.sab-bottom  {
+  height: 100px;
+  background: #8c2727;
+  clear: both;
+}
+.footer  {
+  height: 100px;
+  background: #fff700;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
