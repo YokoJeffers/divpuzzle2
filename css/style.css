@@ -1,4 +1,4 @@
-@charset  "utf-8"
+@charset  "utf-8";
 
 body  {
   margin: 0;
@@ -11,6 +11,11 @@ body  {
 .header {
   height: 100px;
   background: #ff0000;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .side  {
   width: 150px;
@@ -31,13 +36,11 @@ body  {
   width: 150px;
   height: 50px;
   background: #cc00db;
-  float: left;
 }
 .sab-top-left-bottom  {
   width: 150px;
   height: 100px;
   background: #0093b7;
-  float: left;
 }
 .sab-top-right  {
   width: 100px;
@@ -49,15 +52,9 @@ body  {
   width: 250px;
   height: 100px;
   background: #8c2727;
-  float: left;
 }
 .footer  {
   width: 400px;
   height: 100px;
   background: #fff700;
-}
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
 }
